@@ -5,14 +5,14 @@ from owlready2 import (
     destroy_entity,
     get_ontology,
     sync_reasoner,
-    sync_reasoner_hermit,
+    sync_reasoner_hermit,   
     sync_reasoner_pellet,
 )
 
 
 class Reasoner:
     """
-    Semantic Reasenor Multiprocessing Java HeapSize Error Solution
+    Semantic Reasenor Multiprocessing Java OutOfMemoryError Solution
     """
 
     def __init__(
