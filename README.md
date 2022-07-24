@@ -1,6 +1,6 @@
 # Output Example
 
-<img src="img/terminal.gif">
+<center><img src="img/terminal.gif"></center>
 
 # Reasoner-Multiprocessing
 I got an error while running too many rules on owlready2 on reaseoner. I wanted to find a solution to this situation.
@@ -26,19 +26,19 @@ Split all the rules and send all them to the reaseoner.
 You can check <a href="https://github.com/AliYmn/Reasoner-Multiprocessing/blob/master/src/reasoner.py">"src/reasoner.py"</a> all codes.
 
 ```python
-    from reasoner import Reasoner
+from reasoner import Reasoner
 
-    file_name = "example.owl"
-    reasoner_type = "pellet"
-    sleep_time = 10
-    infer_property_values = True
-    infer_data_property_values = True
+file_name = "example.owl"
+reasoner_type = "pellet"
+sleep_time = 10
+infer_property_values = True
+infer_data_property_values = True
 
-    Reasoner(
-            file_name = "example.owl",
-            reasoner_type = "pellet",
-            sleep_time = 10,
-            infer_property_values = True,
-            infer_data_property_values = True,
-    ).run()
+Reasoner(
+        file_name = "example.owl",
+        reasoner_type = "pellet",
+        sleep_time = 10,
+        infer_property_values = True,
+        infer_data_property_values = True,
+).run()
 ```
