@@ -3,7 +3,7 @@
 <center><img src="img/terminal.gif"></center>
 
 # Reasoner-Multiprocessing
-I got an error while running too many rules on owlready2 on reaseoner. I wanted to find a solution to this situation.
+I got an error while running too many rules on owlready2 on reasoner. I wanted to find a solution to this situation.
 
 Error Preview;
 
@@ -14,7 +14,7 @@ Increasing the "Java Heap Size" was a bit of a solution, but still not enough.
 # Solution
 This algorithm may not be correctly, but it can work for project or something. Let me explain how to solve it.
 
-Split all the rules and send all them to the reaseoner.
+Split all the rules and send all them to the reasoner.
 <img src="img/image_1.png">
 
 # Algorithm
